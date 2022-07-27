@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0;
+    color: #f1f1f1;
+    text-decoration: none;
 }
 
 .mainContainer {
@@ -15,7 +17,7 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    padding: 40px 30px;
+    padding: 60px 40px;
     gap: 250px;
 }
 
@@ -26,22 +28,108 @@
 
 .navContent {
     flex-grow: 1;
-    border-bottom: 2px solid #ffffff;
-    padding-bottom: 40px;
+    border-bottom: 2px solid #f1f1f1;
+    padding: 0 2px 40px 2px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #ffffff;
     font-size: 20px;
-    font-weight: 500;
-}
-
-a {
-    color: #ffffff;
-    text-decoration: none;
+    font-weight: 600;
 }
 
 .contact {
     display: flex;
     gap: 5px;
+}
+
+/************************** Hero Section **************************/
+
+.heroSection {
+    padding: 50px 80px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+button {
+    padding: 20px 40px;
+    background-color: transparent;
+    font-size: 24px;
+    font-weight: 600;
+    border: 2px solid #f1f1f1;
+    border-radius: 40px;
+    margin-top: 60px;
+}
+
+.puzzleBox {
+    position: absolute;
+    top: 0;
+    right: 180px;
+    background-color: #f1f1f122;
+    padding: 30px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.puzzleBox > img {
+    background-color: #f1f1f1;
+    padding: 5px 40px;
+    border-radius: 40px;
+}
+
+.puzzleLine {
+    position: absolute;
+    height: 80px;
+    width: 2px;
+    background-color: #f1f1f144;
+    bottom: -80px;
+    right: 90px;
+}
+
+.puzzleDot {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #f1f1f1;
+    border-radius: 100%;
+    bottom: -100px;
+    right: 81px;
+}
+
+.bulbBox {
+    position: absolute;
+    bottom: -120px;
+    right: 450px;
+    background-color: #f1f1f122;
+    padding: 30px 60px 30px 30px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.bulbBox > img {
+    background-color: #f1f1f1;
+    padding: 2px 40px;
+    border-radius: 40px;
+}
+
+.bulbLine {
+    position: absolute;
+    height: 2px;
+    width: 80px;
+    background-color: #f1f1f144;
+    bottom: 120px;
+    right: -80px;
+}
+
+.bulbDot {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #f1f1f1;
+    border-radius: 100%;
+    bottom: 110px;
+    right: -100px;
 }
