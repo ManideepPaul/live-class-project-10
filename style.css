@@ -17,7 +17,7 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    padding: 60px 40px;
+    padding: 40px 40px;
     gap: 250px;
 }
 
@@ -101,7 +101,7 @@ button {
 
 .bulbBox {
     position: absolute;
-    bottom: -120px;
+    bottom: -105px;
     right: 450px;
     background-color: #f1f1f122;
     padding: 30px 60px 30px 30px;
