@@ -1,0 +1,31 @@
+@media screen and (max-width: 1260px) {
+  /************************** Nav Section **************************/
+
+  .navbar {
+    /* padding: 40px 40px; */
+    gap: 50px;
+    /* justify-content: space-between; */
+}
+
+  .logo {
+    width: 100px;
+    height: 35px;
+  }
+
+  .navContent {
+    flex-grow: 0;
+    border: none;
+  }
+
+  .items {
+    display: none;
+  }
+
+  .contact {
+    display: none;
+  }
+
+  .menu {
+    display: inline-block;
+  }
+}
